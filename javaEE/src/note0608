@@ -1,0 +1,21 @@
+购物车说明：
+
+创建order表，里面有一个uid字段用于表明该订单属于哪个用户
+注： order是关键字，不能直接用作表名，通常的做法是加一个下划线order_
+
+创建orderitem,表里有id,pid,num,oid等字段。 分别表示主键，商品对应的id,购买数量以及订单id。
+
+java反射机制
+
+类对象概念：所有的类，都存在一个类对象，用于描述这种类，都有什么属性，什么方法的。
+
+获取类对象：3种方式
+	1.Class.forName
+	2.Hero.class
+	3.new Hero().getClass()
+	
+获取类对象的时候，会导致类属性被初始化
+
+Java基础之—反射（非常重要）:  https://blog.csdn.net/sinat_38259539/article/details/71799078
+
+
