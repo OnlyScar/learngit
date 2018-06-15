@@ -20,4 +20,9 @@ public class SaveData2DB {
 	             }
 	         }
 	     }
+
+    public void save(String string) {
+        // TODO Auto-generated method stub
+        
+    }
 }

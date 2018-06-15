@@ -136,7 +136,7 @@ public class Upload extends HttpServlet {
                     //删除处理文件上传时生成的临时文件  
                     //item.delete();  
                     SaveData2DB saveData2DB = new SaveData2DB();  
-                    saveData2DB.save(realSavePath + "\\" + saveFilename);  
+                    //saveData2DB.save(realSavePath + "\\" + saveFilename);  
                     System.out.println("end");  
                       
                     message = "success";  
