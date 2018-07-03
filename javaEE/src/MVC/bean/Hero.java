@@ -40,5 +40,11 @@ public class Hero {
 	public void setDamage(int damage) {
 		this.damage = damage;
 	}
+	@Override
+	public String toString() {
+		return "Hero [id=" + id + ", name=" + name + ", hp=" + hp + ", damage="
+				+ damage + "]";
+	}
     
+	
 }
